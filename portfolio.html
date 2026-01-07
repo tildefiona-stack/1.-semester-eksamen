@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="icon" href="images/favicon.svg" />
+    <script src="js/javascript.js" defer></script>
+  </head>
+
+  <body class="gul_baggrund">
+    <div class="dark_btn">
+      <button id="dark_mode_btn" onclick="toggleDarkMode()">Dark Mode🌙</button>
+    </div>
+    <header>
+      <p>
+        <a href="index.html">Forside</a>
+      </p>
+      <p>
+        <a href="portfolio.html">Portfolio</a>
+      </p>
+      <p>
+        <a href="om_mig.html">Om mig</a>
+      </p>
+    </header>
+
+    <main>
+      <h1>Portfolio</h1>
+      <div class="portfolio_p">
+        <p>
+          Her kan du læse om hvad jeg har lært i løbet af 1. semester. Det er
+          alt fra Figma dokumenter til færdigudviklede hjmmesider.
+        </p>
+      </div>
+
+      <section class="btn_portfolio">
+        <button class="btn1"><a href="introuge.html">Introuge</a></button>
+        <button class="btn2">
+          <a href="webudvikling.html">Webudvikling</a>
+        </button>
+        <button class="btn3"><a href="ux_ui.html">UX/UI</a></button>
+        <button class="btn4">
+          <a href="brugerudvikling.html">Brugerudvikling</a>
+        </button>
+        <button class="btn5"><a href="indhold.html">Indhold</a></button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo_navn">
+        <img src="images/logo.svg" alt="logo" />
+        <p>Tilde Fiona Buchholtz Harrit</p>
+      </div>
+      <div class="årstal">
+        <p>2026</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>

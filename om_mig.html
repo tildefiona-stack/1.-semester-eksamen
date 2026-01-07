@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om mig</title>
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <script src="js/javascript.js" defer></script>
+    <link rel="icon" href="images/favicon.svg" />
+  </head>
+
+  <body class="lilla_baggrund">
+    <div class="dark_btn">
+      <button id="dark_mode_btn" onclick="toggleDarkMode()">Dark Mode🌙</button>
+    </div>
+    <header>
+      <p>
+        <a href="index.html">Forside</a>
+      </p>
+      <p>
+        <a href="portfolio.html">Portfolio</a>
+      </p>
+      <p>
+        <a href="om_mig.html">Om mig</a>
+      </p>
+    </header>
+
+    <main>
+      <h1>LIDT OM MIG</h1>
+      <div class="mig_billede">
+        <img class="mig" src="images/mig.JPG" alt="mig" />
+      </div>
+      <section class="om_mig_tekst">
+        <section class="mig_1">
+          <p>Jeg hedder Tilde og er 23 år gammel.</p>
+          <p>
+            Jeg har før jeg startede på Multimediedesign på EK, studeret
+            Musik/Matematik på Nørre Gymnasium.
+          </p>
+          <p>
+            Jeg har tidligere arbejdet med SoMe for en musiker, hvor jeg hjalp
+            hende med at promovere hendes nye album, samt tage billeder til
+            hendes hjemmeside og designe logo.
+          </p>
+          <p>
+            Derudover har jeg også været med til at starte en hjemmeside der
+            hedder Mamiga. Her hjalp jeg med at tilføje alt den information der
+            skulle tilføjes, holde overblik over de ting der ikke passede og
+            tage beslutninger ift. design.
+          </p>
+        </section>
+
+        <section class="mig_2">
+          <p>
+            På 1. semester på Multimediedesign har jeg lært en hel del ting. Jeg
+            har lært noget om film- og billedredigering, ophavsret, licenser,
+            rettigheder og datasikkerhed. Jeg har lært at bruge VS Code, Figma,
+            GitHub, Adobe programmerne og andre AI værktøjer.
+          </p>
+          <p>
+            Jeg har fået en større forståelse for billedekonvertering og lært en
+            masse om design og designprincipper. Og så har jeg generelt bare
+            lært at kode med HTML, CSS og JavaScript og lært forskellige
+            brugerudviklingsredskaber at kende, som f.eks. 5-seconds test eller
+            lighthouse test.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo_navn">
+        <img src="images/logo.svg" alt="logo" />
+        <p>Tilde Fiona Buchholtz Harrit</p>
+      </div>
+      <div class="årstal">
+        <p>2026</p>
+      </div>
+    </footer>
+    <script>
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,398 @@
+/* Dark mode */
+
+.lilla_baggrund.dark-mode {
+  background: radial-gradient(
+    circle at center,
+    rgb(48, 3, 79),
+    rgb(121, 47, 171)
+  );
+  color: #f0f0e4;
+}
+.rød_baggrund.dark-mode {
+  background: radial-gradient(
+    circle at center,
+    rgb(62, 2, 32),
+    rgb(183, 13, 98)
+  );
+  color: white;
+}
+.gul_baggrund.dark-mode {
+  background: radial-gradient(
+    circle at center,
+    rgb(174, 44, 0),
+    rgb(116, 4, 60)
+  );
+  color: white;
+}
+
+body.dark-mode header {
+  border-color: #f0f0e4;
+}
+
+body.dark-mode header a {
+  color: #f0f0e4;
+}
+
+body.dark-mode .mig_1,
+body.dark-mode .mig_2,
+body.dark-mode .om_tema,
+body.dark-mode .om_tema_bruger,
+body.dark-mode .læs_mere,
+body.dark-mode .læs_mere_bruger,
+body.dark-mode .smugkig,
+body.dark-mode .smugkig_indhold {
+  background-color: #262438;
+  border-color: #bcbcbc;
+  color: #d0d0d0;
+}
+
+body.dark-mode #dark_mode_btn {
+  background-color: #7a014a;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+body #dark_mode_btn {
+  background-color: hsl(308, 100%, 88%);
+  color: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.dark_btn {
+  display: flex;
+  justify-content: right;
+}
+
+body.dark-mode button:hover {
+  background-color: #340120;
+}
+
+body.dark-mode footer {
+  border-color: #f0f0e4;
+}
+
+body.dark-mode footer img {
+  filter: brightness(0.8);
+}
+
+/* Generel css */
+.mig {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+body {
+  margin: 5em;
+}
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Mynerve";
+  letter-spacing: 15px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+h3 {
+  font-style: italic;
+  font-family: "Mynerve";
+}
+p {
+  line-height: 30px;
+}
+
+/* Header */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 120px;
+  list-style: none;
+  border-bottom: solid 1px black;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+header a:hover {
+  font-weight: bold;
+  transform: scale(1.9);
+  font-size: 20px;
+}
+
+/* Footer */
+footer img {
+  width: 60px;
+  height: 60px;
+}
+footer {
+  display: flex;
+  margin-top: 180px;
+}
+.logo_navn {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.årstal {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+/* Forside */
+.forside {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.forside_portfolio {
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+}
+
+/* Portfolio */
+.btn_portfolio {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.btn_portfolio button {
+  position: relative;
+  background-color: #7a014a;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  width: 200px;
+}
+.btn_portfolio button:hover {
+  background-color: rgb(255, 155, 24);
+}
+.btn_portfolio a {
+  text-decoration: none;
+  color: #f0f0e4;
+}
+
+/* Om mig */
+.mig_1,
+.mig_2 {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #f0f0e4;
+}
+
+/* Generel css til tema siderne */
+.om_tema,
+.om_tema_bruger {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #f0f0e4;
+}
+.læs_mere,
+.læs_mere_bruger {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #f0f0e4;
+}
+.læs_mere a,
+.læs_mere_bruger a {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 15px;
+  background-color: #7a014a;
+  transition: all 0.5s ease;
+}
+.btn a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.læs_mere a,
+.læs_mere_bruger a {
+  text-decoration: none;
+  color: white;
+}
+.læs_mere a:hover,
+.læs_mere_bruger a:hover {
+  background-color: rgb(255, 155, 24);
+}
+.lilla_baggrund {
+  background: radial-gradient(
+    circle at center,
+    rgb(125, 54, 172),
+    rgb(231, 194, 255)
+  );
+}
+.rød_baggrund {
+  background: radial-gradient(
+    circle at center,
+    rgb(255, 24, 140),
+    rgb(255, 154, 205)
+  );
+}
+.gul_baggrund {
+  background: radial-gradient(
+    circle at center,
+    rgb(255, 155, 24),
+    rgb(248, 111, 179)
+  );
+}
+
+/* UX/UI, webudvikling */
+.smugkig {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #f0f0e4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+.smugkig img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Indhold */
+.smugkig_indhold {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #f0f0e4;
+}
+.smugkig_indhold img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.smugkig_indhold a {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 15px;
+  background-color: #7a014a;
+  transition: all 0.5s ease;
+}
+.smugkig_indhold a {
+  text-decoration: none;
+  color: white;
+}
+.smugkig_indhold a:hover {
+  background-color: rgb(255, 155, 24);
+}
+
+@media (min-width: 1400px) {
+  header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* height: 650px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 40px;
+    border-right: solid 1px black;
+    border-bottom: none;
+  }
+  footer {
+    display: flex;
+    margin-top: 220px;
+  }
+  main {
+    margin-left: 220px;
+  }
+
+  /* Portfolio */
+  .btn_portfolio {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+  }
+
+  /* Forside   */
+  .forside {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: start;
+    flex-direction: row;
+    margin-top: 150px;
+  }
+  .forside h3 {
+    margin-right: 50px;
+    font-size: 30px;
+  }
+  .forside img {
+    margin-right: 200px;
+  }
+  .forside_portfolio {
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+    max-width: 1200px;
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 60px;
+    letter-spacing: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* Om mig */
+  .mig_billede {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: start;
+    flex-direction: row;
+    margin-top: 80px;
+  }
+}

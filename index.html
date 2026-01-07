@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forside</title>
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <script src="js/javascript.js" defer></script>
+    <link rel="icon" href="images/favicon.svg" />
+  </head>
+
+  <body class="lilla_baggrund">
+    <div class="dark_btn">
+      <button id="dark_mode_btn" onclick="toggleDarkMode()">Dark Mode🌙</button>
+    </div>
+
+    <header>
+      <p>
+        <a href="index.html">Forside</a>
+      </p>
+      <p>
+        <a href="portfolio.html">Portfolio</a>
+      </p>
+      <p>
+        <a href="om_mig.html">Om mig</a>
+      </p>
+    </header>
+
+    <main>
+      <h1>TILDE HARRITs</h1>
+      <h1 class="forside_portfolio">PORTFOLIO</h1>
+      <div class="forside">
+        <h3>Velkommen til!</h3>
+        <img class="mig" src="images/mig.JPG" alt="mig" />
+      </div>
+    </main>
+
+    <footer>
+      <div class="logo_navn">
+        <img src="images/logo.svg" alt="logo" />
+        <p>Tilde Fiona Buchholtz Harrit</p>
+      </div>
+      <div class="årstal">
+        <p>2026</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>

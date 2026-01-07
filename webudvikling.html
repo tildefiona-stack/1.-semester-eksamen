@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webudvikling</title>
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <script src="js/javascript.js" defer></script>
+    <link rel="icon" href="images/favicon.svg" />
+  </head>
+
+  <body class="rød_baggrund">
+    <div class="dark_btn">
+      <button id="dark_mode_btn" onclick="toggleDarkMode()">Dark Mode🌙</button>
+    </div>
+    <header>
+      <p>
+        <a href="index.html">Forside</a>
+      </p>
+      <p>
+        <a href="portfolio.html">Portfolio</a>
+      </p>
+      <p>
+        <a href="om_mig.html">Om mig</a>
+      </p>
+    </header>
+
+    <main>
+      <h1>WEBUDVIKLING</h1>
+      <section class="tema_web">
+        <section class="om_tema">
+          <p>
+            I Tema 2 arbejdede vi med webudvikling. Vi lærte om
+            designkonventioner, gestaltprincipper, wireframes, styletile, fonte
+            og tekstopsætning. Vi arbejdede med semantisk markup, code reuse og
+            opsætning af en hierarkisk mappestruktur navigation og
+            navnekonventioner.
+          </p>
+          <p>
+            Vi udviklede vores evner i VS Code hvor vi legede lidt med css grid,
+            flex og media queries. Vi fokuserede meget på responsivt design,
+            arbejdet med “mobile first” tilgangen og generelt praksisnære
+            metoder, så vi kunne forstå hvordan værktøjerne bruges i erhvervet.
+          </p>
+          <p>
+            Jeg har i dette tema lært meget om ophavsret, licenser, rettigheder
+            og datasikkerhed. Vi arbejdede også videre med Figma og hvordan
+            værktøjerne til billedbehandling fungerer. Derudover har jeg fået
+            mere kendskab til filformaterne: webP, svg, png og jpg. Og så har
+            jeg selvfølgelig også lært om semantisk web, og separation af
+            struktur og styling.
+          </p>
+        </section>
+
+        <section class="smugkig">
+          <h2>Eksempler på øvelser</h2>
+          <img src="images/web1.png" alt="liste" />
+          <img src="images/web2.png" alt="hello world" />
+        </section>
+
+        <section class="læs_mere">
+          <p>
+            Hvis du kunne tænke dig at kigge lidt nærmere på mit første
+            mobilsite eller min startprøve, kan det findes her.
+          </p>
+          <div class="btn">
+            <a href="https://tildefiona-stack.github.io/Mobilside/"
+              >Mobilesite</a
+            >
+            <a href="https://tildefiona-stack.github.io/Pr-ve.start/"
+              >Startprøve</a
+            >
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo_navn">
+        <img src="images/logo.svg" alt="logo" />
+        <p>Tilde Fiona Buchholtz Harrit</p>
+      </div>
+      <div class="årstal">
+        <p>2026</p>
+      </div>
+    </footer>
+    <script>
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
