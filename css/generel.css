@@ -145,8 +145,11 @@ footer {
   display: flex;
   gap: 20px;
 }
-.årstal {
+.logo_navn p {
   width: 100%;
+}
+.årstal {
+  width: 20%;
   display: flex;
   justify-content: right;
 }
