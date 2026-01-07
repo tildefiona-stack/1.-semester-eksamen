@@ -199,6 +199,18 @@ footer {
   padding: 30px;
   background-color: #f0f0e4;
 }
+.mig_billede {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.mig_billede img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
 
 /* Generel css til tema siderne */
 .om_tema,
@@ -387,12 +399,13 @@ footer {
   }
 
   /* Om mig */
-  .mig_billede {
+  /* .mig_billede {
     display: flex;
+    width: 200px;
+    height: auto;
     justify-content: center;
-    width: 100%;
-    align-items: start;
-    flex-direction: row;
-    margin-top: 80px;
-  }
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: red;
+  } */
 }
